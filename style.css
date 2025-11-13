@@ -78,4 +78,5 @@ html {
 
 .centerParent {
   text-align: center;
+  list-style-image: none;
 }
