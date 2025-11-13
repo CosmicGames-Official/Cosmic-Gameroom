@@ -67,6 +67,7 @@ html {
  text-align: center;
  margin: auto;
  margin-top: 10px;
+ text-decoration: none;
 }
 
 .buttons:hover {
