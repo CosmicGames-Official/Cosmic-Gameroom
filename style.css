@@ -1,0 +1,77 @@
+.title {
+ color: #050047;
+ font-family: verdana;
+ background-color: #7500db;
+ height: 50px;
+ width: 900px;
+ padding: 10px 15px;
+ border-radius: 5px;
+ display: inline-block;
+ display: block;
+ text-align: center;
+ margin: auto;
+ font-size: 40px;
+}
+
+.note1 {
+ color: #050047;
+ font-family: verdana;
+ font-size: 20px;
+ height: 120px;
+ width: 600px;
+ padding: 10px 15px;
+ border-radius: 5px;
+ display: inline-block;
+ display: block;
+ margin: auto;
+ text-align: center;
+}
+
+.mainText {
+ color: #050047;
+ font-size: 16px;
+ font-family: verdana;
+}
+
+.hiddenText {
+  color: #0e03a1;
+}
+
+html {
+  background-color: #b787ff;
+}
+
+.noli {
+  width: 480px;
+  height: 480px;
+  border-radius:50%;
+  outline: 8px solid  #050047;
+  outline-offset: 7px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.buttons {
+ font-family: verdana;
+ font-size: 20px;
+ background-color: #7500db;
+ padding: 10px 15px;
+ border-radius: 5px;
+ width: 100px;
+ list-style-type: none;
+ text-align: center;
+ display: inline-block;
+ text-align: center;
+ margin: auto;
+ margin-top: 10px;
+}
+
+.buttons:hover {
+ background-color: #5700a3;
+}
+
+.centerParent {
+  text-align: center;
+}
