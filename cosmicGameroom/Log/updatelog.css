@@ -2,10 +2,21 @@ body {
   background-color: rgb(29, 29, 29);
 }
 
-.update {
-  transition: 150ms;
-  width: 270px;
+.title {
+  color: rgb(213, 213, 213);
+  font-family: verdana;
+  text-align: center;
+  font-size: 40px;
+  background-color: #2c2c2c;
   height: 60px;
+  margin: -8px -40px;
+}
+
+.update {
+  font-family: verdana;
+  transition: 150ms;
+  width: 70px;
+  height: 40px;
    background-color: #7c7c7c;
   border-radius: 20px;
   padding: 10px 10px;
@@ -27,4 +38,40 @@ body {
 .updatelog {
     text-align: center;
   list-style-image: none;
+}
+.updatelog a {
+  text-decoration: none;
+  color:#000000
+}
+
+.buttons {
+ transition: 150ms;
+ font-family: verdana;
+ font-size: 20px;
+ background-color: #7c7c7c;
+ padding: 10px 15px;
+ border-radius: 5px;
+ width: 100px;
+ list-style-type: none;
+ text-align: center;
+ display: inline-block;
+ text-align: center;
+ margin: auto;
+ margin-top: 17px;
+ text-decoration: none;
+}
+
+.buttons:hover {
+ transition: 150ms;
+ background-color: #5f5f5f;
+}
+
+.centerParent {
+  text-align: center;
+  list-style-image: none;
+}
+
+.centerParent a {
+  text-decoration: none;
+  color:#000000
 }
